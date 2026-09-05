@@ -1,0 +1,42 @@
+# macOS 与编辑器生成文件
+.DS_Store
+.idea/
+**/__pycache__/
+*.py[cod]
+
+# 本地构建产物与打包文件
+RVC-Core.zip
+RVC-Studio/.build/
+RVC-Studio/.swiftpm/
+RVC-Studio/build/
+
+# 本地 Python 运行环境
+RVC-Core/runtime/python-env/
+
+# 模型权重、索引、特征缓存与训练输出不进入仓库
+RVC-Core/assets/.cache/
+RVC-Core/assets/hubert_base/
+RVC-Core/assets/rmvpe/
+RVC-Core/assets/pretrained/
+RVC-Core/assets/pretrained_v2/
+RVC-Core/assets/pymss_weights/
+RVC-Core/assets/weights/
+RVC-Core/assets/indices/
+RVC-Core/logs/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.index
+*.safetensors
+*.npy
+*.npz
+
+# 本地训练/转换音频与视频不进入仓库
+*.wav
+*.flac
+*.mp3
+*.m4a
+*.ogg
+*.mp4
+*.mov

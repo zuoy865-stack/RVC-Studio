@@ -1,0 +1,13 @@
+# 保留可再发布的 FFmpeg 二进制；忽略本地 Python 运行环境。
+runtime/*
+!runtime/ffmpeg/
+!runtime/ffmpeg/**
+runtime/ffmpeg/.DS_Store
+__pycache__/
+*.pyc
+assets/.cache/
+assets/hubert_base/
+assets/rmvpe/*.pt
+assets/weights/*.pth
+assets/indices/*.index
+logs/
