@@ -17,6 +17,5 @@ cd RVC-Studio
 
 生成的应用位于 `RVC-Studio/build/RVC-Studio.app`。
 
-目前还处于实验测试阶段
 
 音频分离模型算法参考的 https://github.com/pymss-project/pymss-studio
